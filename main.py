@@ -1,7 +1,8 @@
 import random
-random_number = random.randint(0, 10)
+num_high = int(input("guess between 0 and #: "))
+random_number = random.randint(0, num_high)
 guess = 200
-print("this is game, find the number between 0 and 10 to win.")
+print(f"this is game, find the number between 0 and {num_high} to win.")
 
 
 
